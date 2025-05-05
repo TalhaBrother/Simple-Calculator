@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+
+            <span id="show" class="blue"></span>
+
+            <br>
+            <div class="input">
+                <input type="text" disabled id="userInput" >
+            </div>
+            <div class="btn">
+                <div class="a">
+                    <button id="num" onclick="valueToSet('7')">7</button>
+                    <button id="num" onclick="valueToSet('8')">8</button>
+                    <button id="num" onclick="valueToSet('9')">9</button>
+                    <button onclick="valueToSet('del')">del</button>
+                </div>
+                <div class="b">
+                    <button id="num" onclick="valueToSet('4')">4</button>
+                    <button id="num" onclick="valueToSet('5')">5</button>
+                    <button id="num" onclick="valueToSet('6')">6</button>
+                    <button onclick="valueToSet('+')">+</button>
+                </div>
+                <div class="c">
+                    <button id="num" onclick="valueToSet('1')">1</button>
+                    <button id="num" onclick="valueToSet('2')">2</button>
+                    <button id="num" onclick="valueToSet('3')">3</button>
+                    <button onclick="valueToSet('-')">-</button>
+                </div>
+                <div class="d">
+                    <button onclick="valueToSet('*')">*</button>
+                    <button id="num" onclick="valueToSet('0')">0</button>
+                    <button onclick="valueToSet('.')">.</button>
+                    <button onclick="valueToSet('c')">C</button>
+                </div>
+                <div class="e">
+                    <button onclick="valueToSet('/')">/</button>
+                    <button onclick="valueToSet('x2')">x2</button>
+                    <button onclick="valueToSet('x3')">x3</button>
+                    <button onclick="valueToSet('=')">=</button>
+                </div>
+              
+            </div>
+
+        </div>
+    </div>
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
