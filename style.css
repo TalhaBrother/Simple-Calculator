@@ -26,7 +26,7 @@
 #userInput{
     padding: 1rem;
     width: 90%;
-    font-size: large;
+    font-size: x-large;
     border: none;
     border-radius: 20px;
     background-color: rgb(66, 66, 66);
@@ -35,6 +35,10 @@
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
     color: white;
    
+}
+button{
+    font-size: x-large;
+    cursor: pointer;
 }
 .btn button{
    height: 4rem;
